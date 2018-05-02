@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <RadioButton
+            android:id="@+id/first"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:text="@string/first"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:background="@color/radiobutton1"/>
+
+        <RadioButton
+            android:id="@+id/second"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:text="@string/second"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:background="@color/radiobutton2"/>
+
+        <RadioButton
+            android:id="@+id/third"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:text="@string/third"
+            android:gravity="center"
+            android:button="@null"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:background="@color/radiobutton3"
+            />
+
+        <RadioButton
+            android:id="@+id/fourth"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:background="@color/radiobutton4"
+            android:text="@string/fourth"
+            android:textColor="@color/white"
+            android:textAllCaps="true"/>
+
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>
